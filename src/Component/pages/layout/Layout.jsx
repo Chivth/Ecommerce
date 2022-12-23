@@ -7,7 +7,7 @@ import classes from "./layout.module.css";
 
 const Layout = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Ecommerce">
       <div className={classes.layout}>
         <NavBar />
         <App />
